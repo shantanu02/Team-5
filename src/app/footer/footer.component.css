@@ -1,0 +1,19 @@
+/* .foot {
+  height: 15vh;
+  background: #343A40;
+}
+*/
+
+.foottext {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+
+
+footer {
+  background-color: #343A40;
+  color: #fff;
+  padding: 20px;
+}

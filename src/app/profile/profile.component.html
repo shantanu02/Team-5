@@ -1,0 +1,31 @@
+<app-inavbar></app-inavbar>
+<!-- Navbaar -->
+
+
+<div class="container-fluid bg-info" style="height : 83.3vh">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 mt-2 p-3">
+      <div class=" mb-3 d-flex justify-content-center align-items-center">
+        <i class="fas fa-user" style="font-size : 150px;"></i>
+      </div>
+      <div class="mt-3 name"> {{c[0].first_name | uppercase}}</div>
+      <div class="name"> {{c[0].last_name | uppercase}}</div>
+      <div class="emailS">Email : <b>{{c[0].email}}</b></div>
+      <div class="emailS">Username : <b>{{c[0].username}}</b></div>
+      <div class="emailS">Phone Number : <b>{{c[0].phone_number}}</b></div>
+
+
+      <button class="btn btn-danger mt-5" (click)="deleteAccount()">Delete Account</button>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Footer -->
+<app-footer></app-footer>

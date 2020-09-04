@@ -1,0 +1,42 @@
+.main-container {
+  height: 100vh;
+}
+
+.text-style-headings {
+  font-size: 2rem;
+  font-family: 'Noto Sans HK', sans-serif;
+
+}
+
+.text-style {
+  font-size: 1rem;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+.signup-content {
+  background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+}
+
+.signup-form {
+  background: #ffffff 65%;
+}
+
+#back-signup {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+
+#back-signup:hover {
+  font-size: 1.5rem;
+  color: rgb(21, 255, 0);
+}
+
+#to-forget-pass {
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+
+#to-forget-pass:hover {
+  font-size: 1.25rem;
+  color: rgb(0, 17, 255);
+}
